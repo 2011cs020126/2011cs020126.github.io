@@ -904,6 +904,9 @@
         $(window).scroll(function () {
           checkSection();
         });
+      document.addEventListener('contextmenu', function(e) {
+      e.preventDefault();
+    });
     </script>
 </body>
 
